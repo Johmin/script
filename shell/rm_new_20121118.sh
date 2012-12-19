@@ -18,5 +18,3 @@ for i in $folder
 do
 	find $file_path -empty -name $i -ctime +180 -exec rm -rf {} \;
 done
-
-#test
